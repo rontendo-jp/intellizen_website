@@ -9,7 +9,7 @@ export const translations = {
     hero: {
       title: "Decide with Data",
       subtitle: "Execute with Discipline",
-      desc: "Real estate management & global imports—built for Japan.",
+      desc: "Our competitive advantage is market intelligence. We specialize in identifying mispriced assets and high-demand import niches through rigorous quantitative analysis.",
       cards: {
         realEstate: {
           title: "Real Estate",
@@ -46,7 +46,7 @@ export const translations = {
         desc: "Navigating the Japanese real estate market requires local insight and legal expertise. We provide comprehensive asset management services designed for international investors. We manage diverse portfolio assets ranging from high-yield vacation rentals in prime tourist hubs like Asakusa to stable monthly corporate housing.",
         links: [
           { label: "View Airbnb Listing (Asakusa)", url: "https://airbnb.com/h/tokyo-asakusa" },
-          { label: "View Corporate Housing Listing", url: "https://weeklyandmonthly.com/srch/?cm=v&id=1065811" }
+          { label: "View Corporate Housing Listing", url: "/property-sapporo" }
         ],
         list: [
           "Tenant Management: Screening, leasing, and conflict resolution",
@@ -76,7 +76,7 @@ export const translations = {
       access: "Access",
       table: {
         name: { label: "Company Name", value: "Intellizen GK" },
-        established: { label: "Established", value: "June 2025" },
+        established: { label: "Established", value: "June 2024" },
         rep: { label: "Representative", value: "Ronald Sidharta" },
         business: { label: "Business Activities", value: "Real Estate Asset Management, E-Commerce, Import/Export Trading" }
       }
@@ -99,12 +99,68 @@ export const translations = {
         ]
       }
     },
+    sapporo: {
+      title: "✨5 mins walk from Subway st. Furnished and Spacious 50㎡ 1LDK – Perfect for Couples or Families✨",
+      address: "Hiragishi 4-Jyo 18-1-53, Toyohira-ku, Sapporo, Hokkaido, Japan",
+      buildingName: "Hawk Maison Sapporo Bldg 3",
+      price: "154,500 JPY / 30 days",
+      parking: "11,000 JPY / 30 days (inquire for availability)",
+      viewPhotos: "View All Photos",
+      details: {
+        location: {
+          title: "Conveniently Located Near the Subway",
+          desc: "Just a 5-minute walk from Sumikawa Station on the Namboku Subway Line, and 20 minutes to Sapporo Station. This location is perfect for commuting and going out—making your daily travel stress-free and comfortable."
+        },
+        interior: {
+          title: "Stylish Interior with Fully Equipped Furniture & Appliances",
+          desc: "The interior is simple yet stylish. The apartment comes fully furnished with essential appliances and ample storage space. Start living comfortably from the moment you check in!"
+        },
+        neighborhood: {
+          title: "Convenient Neighborhood Around the Station",
+          desc: "Right outside the station, you'll find convenience stores and supermarkets, so even sudden errands are easy to handle. The area also offers shopping, fast food, izakayas, and other dining options—everything you need for daily living is within reach."
+        },
+        security: {
+          title: "Safe and Comfortable for Women and Children",
+          desc: "With auto-lock entry and a parcel delivery box, the building offers excellent security. Plus, features like a separate bath and toilet, and generous storage space make everyday life more comfortable."
+        }
+      },
+      amenities: {
+        title: "Included Furniture & Appliances",
+        list: [
+          "Wi-Fi", "Air Conditioner", "Gas Heater", "Queen bed (for 2 people)", 
+          "Sofa bed (for 2 people)", "Bath Towels (for 4 people)", "2 Large Comforters",
+          "Hand Towels", "Bed Sheets and Comforter Covers", "4 Pillows",
+          "Rice bowls and plates (for 4 people)", 
+          "Chopsticks, spoons, and forks (for 4 people)", "Refrigerator & freezer", 
+          "Drum-style washing and drying machine", "Microwave", "Gas stove", 
+          "Cooking pot for gas stove", "Broom", "Mailbox", "Delivery box", 
+          "Electric fan", "Vacuum cleaner"
+        ]
+      },
+      payment: {
+        title: "Payment Terms",
+        desc: "No Key Money / Guarantor Needed. This price already includes electricity / water / internet. To protect both lessee and lessor, we require upfront payment for stays that are less than 3 months.",
+        methods: "Payments can be made using bank transfer into our corporate bank account in Japan (you can use WISE if transferring from overseas). Credit Card is also possible (may incur transaction fee)."
+      },
+      inquire: "Inquire for Availability",
+      news: {
+        title: "News",
+        list: [
+          "Feb 2026: A Canadian just completed a 2.5 month stay",
+          "October 2025: An Australian just completed a one month stay",
+          "Sept 2025: A couple from the Netherlands just completed a one month stay",
+          "Aug 2025: A Japanese family just completed a one month stay",
+          "July 2025: A Japanese family just completed a one month stay"
+        ]
+      }
+    },
     footer: {
       tagline: "Built on Data.\nRun with Discipline.\nMade for Japan.",
       explore: "EXPLORE",
       contact: "CONTACT",
       address: "1-2-3 Marunouchi, Chiyoda-ku\nTokyo 100-0005, Japan"
-    }
+    },
+    lang: 'EN'
   },
   JP: {
     nav: {
@@ -116,7 +172,7 @@ export const translations = {
     hero: {
       title: "データで判断する",
       subtitle: "データで運用を強くする",
-      desc: "不動産運用と輸入事業を、日本市場向けに。",
+      desc: "私たちの強みはマーケットインテリジェンスです。緻密な定量分析を通じて、割安な資産や需要の高い輸入ニッチ市場を特定することに特化しています。",
       cards: {
         realEstate: {
           title: "不動産事業",
@@ -153,7 +209,7 @@ export const translations = {
         desc: "日本の不動産市場をナビゲートするには、地域の洞察と法的専門知識が必要です。海外投資家の皆様に向けた包括的な資産管理サービスを提供します。浅草のような観光拠点における高収益な民泊物件から、安定したマンスリーマンションまで、幅広い資産を運用・管理しています。",
         links: [
           { label: "Airbnbリスティングを見る (浅草)", url: "https://airbnb.com/h/tokyo-asakusa" },
-          { label: "マンスリーマンション情報を見る", url: "https://weeklyandmonthly.com/srch/?cm=v&id=1065811" }
+          { label: "マンスリーマンション情報を見る", url: "/property-sapporo" }
         ],
         list: [
           "テナント管理：審査、リース契約、トラブル対応",
@@ -183,7 +239,7 @@ export const translations = {
       access: "アクセス",
       table: {
         name: { label: "会社名", value: "Intellizen合同会社" },
-        established: { label: "設立", value: "2025年6月" },
+        established: { label: "設立", value: "2024年6月" },
         rep: { label: "代表者", value: "代表取締役 Ronald Sidharta" },
         business: { label: "事業内容", value: "不動産アセットマネジメント事業、Eコマース、輸出入貿易事業" }
       }
@@ -206,12 +262,68 @@ export const translations = {
         ]
       }
     },
+    sapporo: {
+      title: "✨地下鉄駅徒歩5分。家具・家電完備の広々50㎡ 1LDK – カップルやファミリーに最適✨",
+      address: "北海道札幌市豊平区平岸四条１８丁目1-53",
+      buildingName: "ホークメゾン札幌３号館",
+      price: "154,500円 / 30日",
+      parking: "11,000円 / 30日 (空き状況はお問い合わせください)",
+      viewPhotos: "すべての写真を見る",
+      details: {
+        location: {
+          title: "♪ 地下鉄駅近くで便利なロケーション ♪",
+          desc: "地下鉄南北線澄川駅から徒歩わずか5分、札幌駅まで20分。通勤やお出かけに最適な立地で、毎日の移動もストレスフリーで快適です。"
+        },
+        interior: {
+          title: "♪ 家具・家電完備のスタイリッシュなインテリア ♪",
+          desc: "インテリアはシンプルかつスタイリッシュ。生活に必要な家電が完備されており、収納スペースも充実しています。入居したその日から快適な生活をスタート！"
+        },
+        neighborhood: {
+          title: "♪ 駅周辺の便利な生活環境 ♪",
+          desc: "駅を出てすぐにはコンビニやスーパーがあり、急な買い物も安心。周辺にはショッピング施設、ファーストフード、居酒屋などの飲食店も充実しており、生活に必要なものはすべて揃っています。"
+        },
+        security: {
+          title: "♪ 女性やお子様にも安心・快適 ♪",
+          desc: "オートロックと宅配ボックスを完備しており、セキュリティ面も安心。バス・トイレ別で、収納スペースもたっぷりあり、快適な毎日をお過ごしいただけます。"
+        }
+      },
+      amenities: {
+        title: "設備・備品",
+        list: [
+          "Wi-Fi", "エアコン", "ガスファンヒーター", "クイーンベッド (2名用)", 
+          "ソファベッド (2名用)", "バスタオル (4名分)", "大型掛け布団 (2枚)",
+          "ハンドタオル", "シーツ・掛け布団カバー", "枕 (4個)",
+          "茶碗・皿 (4名分)", 
+          "箸・スプーン・フォーク (4名分)", "冷蔵庫・冷凍庫", 
+          "ドラム式洗濯乾燥機", "電子レンジ", "ガスコンロ", 
+          "調理用鍋", "ほうき", "郵便ポスト", "宅配ボックス", 
+          "扇風機", "掃除機"
+        ]
+      },
+      payment: {
+        title: "お支払いについて",
+        desc: "敷金・礼金・保証人不要。電気・水道・インターネット料金込み。貸主・借主双方の保護のため、3ヶ月未満の滞在は前払いをお願いしております。",
+        methods: "お支払いは日本国内の法人口座への銀行振込（海外からはWISEが利用可能）、またはクレジットカード（手数料がかかります）がご利用いただけます。"
+      },
+      inquire: "空室確認・予約",
+      news: {
+        title: "最新情報",
+        list: [
+          "2026年2月：カナダ人のお客様が2.5ヶ月の滞在を完了されました",
+          "2025年10月：オーストラリア人のお客様が1ヶ月の滞在を完了されました",
+          "2025年9月：オランダからのカップルのお客様が1ヶ月の滞在を完了されました",
+          "2025年8月：日本人ファミリーのお客様が1ヶ月の滞在を完了されました",
+          "2025年7月：日本人ファミリーのお客様が1ヶ月の滞在を完了されました"
+        ]
+      }
+    },
     footer: {
       tagline: "データで判断。\nデータで運用する。\n日本市場のために。",
       explore: "コンテンツ",
       contact: "お問い合わせ",
       address: "〒100-0005\n東京都千代田区丸の内1-2-3"
-    }
+    },
+    lang: 'JP'
   }
 };
 

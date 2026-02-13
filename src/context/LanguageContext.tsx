@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState, ReactNode, useEffect } from 'react';
 import { translations, Language, TranslationType } from '../data/translations';
 
 interface LanguageContextType {
@@ -12,6 +12,15 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLangState] = useState<Language>('JP');
+
+  // Handle URL parameters for initial language
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.hash.split('?')[1]);
+    const urlLang = params.get('lang')?.toUpperCase();
+    if (urlLang === 'EN' || urlLang === 'JP') {
+      setLangState(urlLang as Language);
+    }
+  }, []);
 
   const toggleLang = () => {
     setLangState(prev => prev === 'EN' ? 'JP' : 'EN');

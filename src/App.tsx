@@ -28,6 +28,7 @@ function GoogleAnalytics() {
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-63MSEQ98JN');
+        gtag('config', 'AW-17968891765');
       `;
       document.head.appendChild(configScript);
     }

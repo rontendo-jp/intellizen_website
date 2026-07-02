@@ -59,6 +59,9 @@ export const translations = {
         title: "Global Import",
         tagline: "Connecting Cultures through Quality.",
         desc: "We bridge the gap between international manufacturers and the discerning Japanese market. Our network ensures seamless logistics and successful market entry.",
+        links: [
+          { label: "Visit Jolly Time Popcorn", url: "https://jollytimepopcorn.jp" }
+        ],
         list: [
           "Product Sourcing: Finding unique high-value goods",
           "Import Logistics: Customs clearance and warehousing",
@@ -222,6 +225,9 @@ export const translations = {
         title: "グローバルインポート",
         tagline: "品質を通じて文化を繋ぐ。",
         desc: "海外の製造業者と、目の肥えた日本市場とのギャップを埋めます。独自のネットワークにより、シームレスな物流と市場参入を実現します。",
+        links: [
+          { label: "ジョリータイムポップコーンを見る", url: "https://jollytimepopcorn.jp" }
+        ],
         list: [
           "商品調達：ユニークで高付加価値な商品の発掘",
           "輸入ロジスティクス：通関手続きおよび倉庫保管",

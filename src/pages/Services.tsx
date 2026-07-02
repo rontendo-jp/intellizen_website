@@ -117,8 +117,8 @@ export function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px] rounded-lg overflow-hidden shadow-xl">
               <img 
-                src="https://vgbujcuwptvheqijyjbe.supabase.co/storage/v1/object/public/hmac-uploads/uploads/1af87180-f388-40b0-98a3-a44c0095e3ea/1770807800496-aa71f2ec/1L7A7805.jpg" 
-                alt="Global Import Products" 
+                src="https://wsrv.nl/?url=https%3A%2F%2Fvgbujcuwptvheqijyjbe.supabase.co%2Fstorage%2Fv1%2Fobject%2Fpublic%2Fhmac-uploads%2Fuploads%2F1af87180-f388-40b0-98a3-a44c0095e3ea%2F1768640983011-0c4b1bfc%2F1411669370000-75th-Anniversary-Product-Set.jpg.webp&w=1200&output=webp&q=80"
+                alt="Global Import Products"
                 className="absolute inset-0 w-full h-full object-cover"
               />
             </div>
@@ -131,7 +131,34 @@ export function Services() {
               <p className="text-muted-foreground mb-8 leading-relaxed">
                 {t.services.import.desc}
               </p>
-              
+
+              <div className="flex flex-wrap gap-4 mb-8">
+                {t.services.import.links?.map((link, i) => {
+                  const isInternal = link.url.startsWith('/#') || link.url.startsWith('/');
+                  return isInternal ? (
+                    <Link
+                      key={i}
+                      to={link.url.replace('/#', '')}
+                      className="inline-flex items-center text-sm font-medium text-accent hover:text-primary transition-colors underline underline-offset-4"
+                    >
+                      {link.label}
+                      <ChevronRight className="ml-1 w-3 h-3" />
+                    </Link>
+                  ) : (
+                    <a
+                      key={i}
+                      href={link.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center text-sm font-medium text-accent hover:text-primary transition-colors underline underline-offset-4"
+                    >
+                      {link.label}
+                      <svg className="ml-1 w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    </a>
+                  );
+                })}
+              </div>
+
               <ul className="space-y-4">
                 {t.services.import.list.map((item, i) => (
                   <li key={i} className="flex items-start space-x-3 text-sm text-foreground">

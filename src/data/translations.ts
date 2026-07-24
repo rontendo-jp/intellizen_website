@@ -80,7 +80,6 @@ export const translations = {
       table: {
         name: { label: "Company Name", value: "Intellizen GK" },
         established: { label: "Established", value: "June 2024" },
-        rep: { label: "Representative", value: "Ronald Sidharta" },
         business: { label: "Business Activities", value: "Real Estate Asset Management, E-Commerce, Import/Export Trading" }
       }
     },
@@ -246,7 +245,6 @@ export const translations = {
       table: {
         name: { label: "会社名", value: "Intellizen合同会社" },
         established: { label: "設立", value: "2024年6月" },
-        rep: { label: "代表者", value: "代表取締役 Ronald Sidharta" },
         business: { label: "事業内容", value: "不動産アセットマネジメント事業、Eコマース、輸出入貿易事業" }
       }
     },

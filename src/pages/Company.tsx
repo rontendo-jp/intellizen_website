@@ -7,7 +7,6 @@ export function Company() {
   const tableRows = [
     { label: t.company.table.name.label, value: t.company.table.name.value },
     { label: t.company.table.established.label, value: t.company.table.established.value },
-    { label: t.company.table.rep.label, value: t.company.table.rep.value },
     { label: t.company.table.business.label, value: t.company.table.business.value },
   ];
 
